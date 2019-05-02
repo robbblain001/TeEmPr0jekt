@@ -1,3 +1,4 @@
+
 /*
 5.1.19
 Creators: Ethan Blow, Robb Blain
@@ -11,14 +12,14 @@ on a screen after the right code is entered
  * Not our code credit to ^^^
  * Thanks
  */
-
+ 
 #include <LiquidCrystal.h> //include LCD library (standard library)
 #include <Keypad.h> //include keypad library - first you must install library (library link in the video description)
 
 #define redLED 10 //define the LED pins
 #define greenLED 11
 
-char* password ="2580"; //create a password
+char* password = (char*)"2580"; //create a password
 int pozisyon = 0; //keypad position
 
 const byte rows = 4; //number of the keypad's rows and columns
