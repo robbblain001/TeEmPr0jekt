@@ -19,7 +19,7 @@ on a screen after the right code is entered
 #define redLED 10 //define the LED pins
 #define greenLED 11
 
-char* password = (char*)"2580"; //create a password
+char* password = (char*)"2580"; //create a password //
 int pozisyon = 0; //keypad position
 
 const byte rows = 4; //number of the keypad's rows and columns
